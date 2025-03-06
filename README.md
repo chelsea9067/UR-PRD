@@ -1,5 +1,6 @@
 # UnmannedRetail-PickReturn-Dataset
 ## **Overview**
+![scenarios](https://github.com/user-attachments/assets/0165e490-f787-40f6-a5d2-921704f4a38b)
 UR-PRD is a dataset designed for action recognition in unmanned retail environments. It includes **2,103 labeled action instances** across three categories:
 
 - **Item Pickup**: Actions where an item is successfully picked up.
@@ -8,7 +9,7 @@ UR-PRD is a dataset designed for action recognition in unmanned retail environme
 
 These instances were extracted from recorded videos, with each instance spanning **1 to 10 seconds**, resulting in a total of **101,830 annotated frames**.
 
-## **Data Format**
+To protect privacy, only **Skeleton Data** and **Hand Images** are publicly available.
 Each sample in the dataset is stored in **HDF5 (`.h5`) format**, containing:
 
 - **Skeleton Data**: Keypoint coordinates extracted from human body joints.
@@ -34,5 +35,4 @@ Our dataset is available at: [Insert Dataset Link Here]
 
 ## **Usage**
 Researchers can leverage UR-PRD for **multi-modal action recognition** using both skeleton-based and vision-based models. The dataset is particularly useful for studying fine-grained hand-object interactions in retail environments.
-![introduction](https://github.com/user-attachments/assets/a4a5073a-9734-4e2a-9dd2-fe23a0e57a62)
 
