@@ -31,7 +31,14 @@ To ensure robust evaluation, the dataset is divided as follows:
 - **Err-Pickup and Err-Return**: Exclusively allocated to the test set to rigorously assess generalization.
 
 ## **Dataset Link**
-Our dataset is available at: [Insert Dataset Link Here]
+train_data.h5
+link：https://pan.baidu.com/s/1s48FTeJt8MaHBmIYFCW06w?pwd=ky17 
+extraction code：ky17
+
+test_data.h5
+link：https://pan.baidu.com/s/1INdDQg7sD6_kKNN51W7dLA?pwd=ky17 
+extraction code：ky17
+
 
 ## **Usage**
 Researchers can leverage UR-PRD for **multi-modal action recognition** using both skeleton-based and vision-based models. The dataset is particularly useful for studying fine-grained hand-object interactions in retail environments.
